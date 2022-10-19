@@ -5,9 +5,9 @@ const publicFolderPath = path.resolve ('public');
 app.use(express.static(publicFolderPath));
 app.use (express.json());
 app.use (express.urlencoded());
-const APP_PORT = 1234;
-app.listen (APP_PORT, () => {
-    console.log('Servidor funcionando en puerto ' + APP_PORT)
+const port = process.env.PORT || 3001;
+app.listen (port, () => {
+    console.log('Servidor funcionando en puerto ${port}')
 });
 
 app.get('/', (req, res) => {
