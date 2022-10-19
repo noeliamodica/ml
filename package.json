@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "test": "src/app.js",
+    "start": "node app.js"
 
   },
+  
   "author": "Noelia Modica",
   "license": "ISC",
   "keywords": [],
