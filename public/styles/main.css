@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    
+    header.logo{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: #ebebeb;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+    div.top-header{
+        padding: 5%;
+    }
+    
+    header{
+        background-color: #EAC926;
+        
+    }
+    
+    header div.logo{
+        width: 50%;
+    }
+    
+    header div.logo{
+        padding: 12px;
+    }
+    header nav{
+        font-size: 14px;
+    }
+    
+    header ul li{
+        list-style-type: none;
+    }
+    
+    header ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    header .form .input{
+        background-color: #FFF;
+        border: 1px solid #000;
+        outline: none;
+        color: #666;
+        padding: 2px;
+    }
+    header .form .submit{
+        background-color: #FFF;
+        border: 1px solid #000;
+        color: #666;
+        width: 10%;
+    }
+    
+    header div.top-header p{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+
+  
+
+    div.burger-menu{
+        text-align: center;
+    }
+    
+    div.burger-menu i{
+        background-color: #0044AA;
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 20px;
+        height: 40px;
+        margin: 10px 0px 20px 0px;
+        padding: 10px;
+        width: 40px;
+    }
+    
+    .price{
+        font-size: 18px;
+        width: 30%;
+    }
+    
+    .discount{
+        width: 70%;
+    }
+
+    .discount,
+    .description{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    h3,
+    .description{
+        color: #666;
+    }
+    
+    .description{
+        display: none;
+        margin-top: 20px;
+    }
+    
+    section.banner img{
+        width: 100%;
+    }
+    
+    main{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    main section article{
+        background-color: #fff;    
+        margin: 10px 0px;
+    }
+    
+    main section article img{
+        width: 100%;
+    }
+    main section article i{
+        width: 30%;
+    }
+
+    main section article i,
+    .discount{
+        color: #39b54a;
+    }
+    
+    main section article i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+    }
+    
+    main section h3{
+        margin: 20px 0px;
+    }
+    
+    article div.main-article{
+        width: 100%;
+        border-top: 1px solid #ebebeb;
+        padding: 15px;
+    }
+
+.footer-section{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.flex-container{
+    display: flex;
+    position: relative;
+    margin: 5px;
+} 
+
+.products{
+    display: flex;
+    flex-direction: column;
+} 
+
+form{
+	width:85%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:(64, 207, 255);
+}
+
+form label{
+	width:100%;
+	font-weight:bold;
+	display:inline-block;
+}
+form input[type="text"],
+form input[type="email"]{
+	width:100px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+
+
+@media (min-width: 425px){
+    main section article .description{
+        display: block;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .products{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .products article{
+        width: 45%;
+    }
+
+    .Ofertas{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-between;
+    }   
+
+    
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        right: inherit;
+        margin: 5px;
+    }   
+
+
+    .Registro{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        margin: 5px;
+    }   
+    .Login{
+        display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            box-sizing: border-box;    
+        margin: 5px;
+    }
+    .Compras{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        
+        margin: 5px;
+    }
+
+    .header.top-header.flex-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+.header.top-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.burger-menu{
+    display: none;
+}
+
+
+form{
+	width:85%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:(64, 207, 255);
+}
+
+form label{
+	width:100%;
+	font-weight:bold;
+	display:inline-block;
+}
+form input[type="text"],
+form input[type="email"]{
+	width:100px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+}
+
+@media (min-width: 769px){
+    .products article{
+        width: 20%;
+    }
+}
+
+@media (max-width: 425px){
+    nav{
+    display: none;
+}
+}
